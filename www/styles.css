@@ -1,0 +1,170 @@
+body{
+	margin:0px;
+    font-family: "Arial", helvetica, sans-serif;
+}
+
+p{
+	font-family: "Arial", helvetica, sans-serif;
+	font-size: 15px;
+}
+
+ul{
+    font-size: 15px;
+}
+
+h4{
+	font-family: "Arial", helvetica, sans-serif
+	
+}
+.floatLeft{float: left;}
+.floatRight{float: right;}
+.tab{ text-indent: 40px; }
+.center{text-align: center; }
+.right{text-align: right; }
+.main{
+	background: black;
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.headshot{
+	float: right;
+	clear: right;
+	width: 600px;
+	height: 450px;
+	border: 5px solid;
+	border-color: #f77f00;
+	border-radius: 10px;
+}
+
+.college{
+	position: relative;
+	top: 5px;
+	float: left;
+	width: 400px;
+	height: 145px;
+	padding: 5px;
+}
+
+.legitBody{
+    margin:8px;
+}
+
+.legitStyle{
+/*	background-image: url("images/bg.jpg");*/
+	background-color: white;
+	background-position: center;
+	height: 1000px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-color: #f77f00;
+	margin: 25px 75px 100px;
+}
+
+.bottomBorder{
+	border-bottom: 10px solid black;
+}
+
+.bodyText{
+	text-align: left;
+	color: black;
+	font-size: 17px;
+	font-family: "Arial", helvetica, sans-serif;
+}
+
+.contact{
+	text-align: left;
+	color: black;
+	font-size: 12px;
+	font-family: "Arial", helvetica, sans-serif;
+}
+
+.topLink{
+	color: white;
+	font-size: 22px;	
+	font-family: "Arial", helvetica, sans-serif;
+	
+	padding: 20px;
+}
+
+.flex-container {
+  	display: flex;
+  	flex-wrap: nowrap;
+  	background-color: white;
+	margin:8px;
+}
+
+.flex-container .box {
+  	background-color: white;
+  	width: 50%;
+	margin-left:10px;
+		
+
+
+}
+
+.resumeHead{
+    	color: #f77f00; font-family: "Arial", helvetica, sans-serif;   
+}
+
+.resumeHead:after {
+    	content: "";
+    	display: block;
+    	width: 100%;
+    	padding-top: 5px;
+    	border-bottom: 10px solid #f77f00;
+}
+
+#resumeHead{
+   	content: "";
+    	display: block;
+    	width: 100%;
+    	padding-top: 5px;
+    	border-bottom: 12px solid #f77f00;
+}
+
+#headers{
+	color: #f77f00; font-family: "Arial", helvetica, sans-serif;
+}
+
+#headers:after {
+	content: "";
+	display: block;
+	width: 25%;
+	padding-top: 5px;
+	border-bottom: 5px solid #f77f00;
+}
+
+#theHead{
+	color: white; font-family: "Arial", helvetica, sans-serif;
+	padding: 0px;
+	margins: 0px;
+}
+
+#theHead:after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 10px;
+	border-bottom: 7px: solid #f77f00;
+}
+
+#headBox{
+	width: 100%;
+	padding: 0px;
+	margins: 0px;
+	background-color: #f77f00;
+	border-color: #f77f00;
+	offset: 0px;
+}
+
+#resumeAddress{
+    	text-align: right;
+    	font-size: 16px;
+	color: #f77f00;
+}
+
+#title{
+    color: #f77f00;
+}
