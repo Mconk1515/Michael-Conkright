@@ -30,8 +30,8 @@ h4{
 .headshot{
 	float: right;
 	clear: right;
-	width: 600px;
-	height: 450px;
+	width: auto;
+	height: auto;
 	border: 5px solid;
 	border-color: #f77f00;
 	border-radius: 10px;
